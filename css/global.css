@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #000;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: Inter, "Noto Sans KR", sans-serif;
+  /*  글꼴 띄어쓰기 돼 있으면 쌍따옴표 필수 */
+  letter-spacing: auto;
+  word-break: keep-all;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
