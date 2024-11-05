@@ -41,7 +41,7 @@
 
 /* 기본은 데스크탑 PC 레이아웃 */
 /* 태블릿 PC 레이아웃 */
-@media screen and (max-width: 1169px) {
+@media screen and (max-width: 1170px) {
   .inner {
     padding: 0 15px;
   }
